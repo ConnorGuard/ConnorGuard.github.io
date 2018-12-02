@@ -4,7 +4,7 @@ let ma;
 let maxD;
 
 function setup() { 
-  createCanvas(600, 600, WEBGL);
+  createCanvas(windowwidth, windowheight, WEBGL);
   ma = atan(1/sqrt(2));
   maxD = dist(0,0,200, 200)
 }
